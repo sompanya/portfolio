@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Digital Business Technology Student">
+    <title>Portfolio | นักศึกษาเทคโนโลยีธุรกิจดิจิทัล</title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Prompt:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top glass-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Port<span class="text-gradient">folio.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">หน้าแรก</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">เกี่ยวกับฉัน</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#hobbies">งานอดิเรก</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">ทักษะ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">ผลงาน</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">ติดต่อ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section d-flex align-items-center">
+        <div class="bg-shape bg-shape-1"></div>
+        <div class="bg-shape bg-shape-2"></div>
+        <div class="container text-center text-lg-start position-relative z-1">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h2 class="text-uppercase tracking-wider text-muted mb-2 fs-5">Hello, I'm</h2>
+                    <h1 class="display-4 fw-bold mb-3 text-white">สมปัญญา <br> <span
+                            class="text-gradient">สงวนโอษฐ</span></h1>
+                    <p class="lead mb-4 text-light-gray fs-5">นักศึกษาปริญญาตรี สาขาเทคโนโลยีธุรกิจดิจิทัล
+                        <br>หลงใหลในการผสมผสานเทคโนโลยีเข้ากับกลยุทธ์ทางธุรกิจ เพื่อสร้างสรรค์นวัตกรรมใหม่ๆ
+                    </p>
+                    <div class="d-flex gap-3 justify-content-center justify-content-lg-start">
+                        <a href="#projects" class="btn btn-primary btn-glow px-4 py-2 rounded-pill">ดูผลงานของฉัน</a>
+                        <a href="#contact" class="btn btn-outline-light px-4 py-2 rounded-pill">ติดต่อฉัน</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <div class="hero-image-wrapper">
+                        <!-- User Portrait Placeholder -->
+                        <img src="profile.jpg" alt="สมปัญญา สงวนโอษฐ"
+                            class="img-fluid rounded-circle hero-img shadow-lg"
+                            onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+                        <div class="floating-badge badge-1"><i class="fa-solid fa-code text-primary"></i> Web Dev</div>
+                        <div class="floating-badge badge-2"><i class="fa-solid fa-chart-line text-success"></i> Data
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 section-bg">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="about-img-box position-relative">
+                        <div class="bg-shape-small"></div>
+                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="About Me" class="img-fluid rounded-4 shadow-lg position-relative z-1">
+                    </div>
+                </div>
+                <div class="col-lg-6 px-lg-5">
+                    <h2 class="fw-bold mb-4">เกี่ยวกับ<span class="text-gradient">ฉัน</span></h2>
+                    <p class="text-light-gray fs-6 mb-4">สวัสดีครับ ผมชื่อสมปัญญา นักศึกษาปริญญาตรี
+                        สาขาเทคโนโลยีธุรกิจดิจิทัล วิทยาลัยอาชีวศึกษานครศรีธรรมราช
+                        ผู้มีพื้นฐานการศึกษาด้านการออกแบบกราฟิกและสื่อดิจิทัล
+                        ผมมีความมุ่งมั่นที่จะผสานความคิดสร้างสรรค์เข้ากับเทคโนโลยีสารสนเทศ (IT)
+                        เพื่อนำมาประยุกต์ใช้ในการแก้ปัญหา ยกระดับประสิทธิภาพ
+                        และสร้างมูลค่าเพิ่มให้กับธุรกิจในยุคดิจิทัลอย่างเป็นรูปธรรม</p>
+
+                    <p class="text-light-gray fs-6 mb-4">
+                        ผมมีความสนใจและมุ่งเน้นพัฒนาทักษะเป็นพิเศษในด้านการวิเคราะห์ข้อมูลทางธุรกิจ (Data Analytics),
+                        การตลาดดิจิทัล (Digital Marketing) ตลอดจนนวัตกรรมการเงินและเทคโนโลยีเว็บยุคใหม่ (FinTech & Web3)
+                        ผมเชื่อมั่นว่าเทคโนโลยีที่ดี ไม่เพียงแต่ต้องทำงานได้อย่างมีประสิทธิภาพ
+                        แต่ต้องตอบโจทย์ความต้องการของผู้ใช้งานและขับเคลื่อนธุรกิจไปข้างหน้าได้จริง</p>
+
+                    <h4 class="fw-bold text-white fs-5 mt-4 mb-3">ทักษะและความสามารถ</h4>
+
+                    <div class="row g-3">
+                        <div class="col-12">
+                            <div class="d-flex align-items-start glass-card p-3 rounded-3">
+                                <div class="icon-box me-3 fs-4 text-primary"><i class="fa-solid fa-laptop-code"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-1 text-white">Hard Skills</h6>
+                                    <small class="text-muted">การวิเคราะห์ข้อมูลเชิงธุรกิจ,
+                                        การตัดต่อวิดีโอและกราฟิกดีไซน์</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex align-items-start glass-card p-3 rounded-3">
+                                <div class="icon-box me-3 fs-4 text-success"><i class="fa-solid fa-users"></i></div>
+                                <div>
+                                    <h6 class="mb-1 text-white">Soft Skills</h6>
+                                    <small class="text-muted">มีระเบียบวินัยและความรับผิดชอบสูง
+                                        (ผ่านการฝึกอบรมระเบียบวินัยทหาร), มีทักษะการคิดวิเคราะห์เชิงกลยุทธ์,
+                                        และมีความสามารถในการบริหารจัดการความเสี่ยง</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex align-items-start glass-card p-3 rounded-3">
+                                <div class="icon-box me-3 fs-4 text-warning"><i class="fa-solid fa-lightbulb"></i></div>
+                                <div>
+                                    <h6 class="mb-1 text-white">ความสนใจส่วนตัว</h6>
+                                    <small class="text-muted">การวิเคราะห์แนวโน้มเทคโนโลยีและตลาดทุน (Tech Stocks &
+                                        Cryptocurrency), การศึกษาโมเดลธุรกิจ, และการผลิตคอนเทนต์ดิจิทัล</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">งาน<span class="text-gradient">อดิเรก</span></h2>
+                <p class="text-muted">กิจกรรมที่ผมสนใจและชอบทำในเวลาว่าง</p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="glass-card text-center p-4 rounded-4 h-100 d-flex flex-column align-items-center">
+                        <i class="fa-solid fa-headphones skill-icon text-purple"></i>
+                        <h5 class="text-white mt-2 fs-5">ฟังเพลง</h5>
+                        <p class="text-muted small mt-2 mb-0">เปิดรับแรงบันดาลใจและผ่อนคลายสมองด้วยดนตรีหลากหลายแนว
+                            เพื่อสร้างสมาธิในการทำงาน</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="glass-card text-center p-4 rounded-4 h-100 d-flex flex-column align-items-center">
+                        <i class="fa-solid fa-dumbbell skill-icon text-orange"></i>
+                        <h5 class="text-white mt-2 fs-5">ออกกำลังกาย</h5>
+                        <p class="text-muted small mt-2 mb-0">ดูแลสุขภาพร่างกายให้แข็งแรงอยู่เสมอ
+                            เพื่อรักษาสมดุลชีวิตและความพร้อมในการลุยโปรเจกต์</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="glass-card text-center p-4 rounded-4 h-100 d-flex flex-column align-items-center">
+                        <i class="fa-solid fa-podcast skill-icon text-yellow"></i>
+                        <h5 class="text-white mt-2 fs-5">ดูพอดแคสต์</h5>
+                        <p class="text-muted small mt-2 mb-0">อัปเดตเทรนด์ความรู้ใหม่ๆ ด้านธุรกิจ เทคโนโลยี
+                            และการพัฒนาตัวเองผ่านรายการพอดแคสต์</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="glass-card text-center p-4 rounded-4 h-100 d-flex flex-column align-items-center">
+                        <i class="fa-solid fa-earth-americas skill-icon text-blue"></i>
+                        <h5 class="text-white mt-2 fs-5">ลงทุนหุ้นตปท.</h5>
+                        <p class="text-muted small mt-2 mb-0">ศึกษาและวิเคราะห์แนวโน้มตลาดโลก ทิศทางธุรกิจ
+                            เพื่อสร้างโอกาสในการเติบโตทางการเงิน</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 position-relative">
+        <div class="bg-shape bg-shape-3" style="top: 20%; left: 10%;"></div>
+        <div class="container py-5 position-relative z-1">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">ทักษะความ<span class="text-gradient">สามารถ</span></h2>
+                <p class="text-muted">ความเชี่ยวชาญและความสามารถพิเศษของผม</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card text-center p-4 rounded-4 glass-card h-100">
+                        <i class="fa-solid fa-clapperboard skill-icon text-orange"></i>
+                        <h4 class="text-white mt-3 fs-5">ตัดต่อวิดีโอ</h4>
+                        <p class="text-muted small">ตัดต่อวิดีโอให้น่าสนใจ
+                            เล่าเรื่องราวผ่านภาพและเสียงได้อย่างสร้างสรรค์</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card text-center p-4 rounded-4 glass-card h-100">
+                        <i class="fa-solid fa-pen-nib skill-icon text-blue"></i>
+                        <h4 class="text-white mt-3 fs-5">กราฟิกดีไซน์</h4>
+                        <p class="text-muted small">ออกแบบกราฟิก โปสเตอร์ และสื่อโฆษณาต่างๆ ให้สวยงามและสื่อสารได้ตรงจุด
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card text-center p-4 rounded-4 glass-card h-100">
+                        <i class="fa-solid fa-camera skill-icon text-purple"></i>
+                        <h4 class="text-white mt-3 fs-5">ถ่ายภาพ/วิดีโอ</h4>
+                        <p class="text-muted small">ถ่ายภาพและวิดีโอได้หลากหลายรูปแบบ ทั้งภาพบุคคล สินค้า และงานกิจกรรม
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card text-center p-4 rounded-4 glass-card h-100">
+                        <i class="fa-solid fa-masks-theater skill-icon text-yellow"></i>
+                        <h4 class="text-white mt-3 fs-5">นักแสดงออกกล้อง</h4>
+                        <p class="text-muted small">มีความมั่นใจในการแสดงหน้ากล้อง สามารถเป็นพิธีกรหรือนักแสดงในคลิปได้
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 section-bg">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">ผลงานที่<span class="text-gradient">โดดเด่น</span></h2>
+                <p class="text-muted">โปรเจกต์และการประกวดที่ผ่านมาของผม</p>
+            </div>
+            <div class="row g-4">
+                <!-- Project 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <a href="https://drive.google.com/file/d/109xmyDDQnq0Pt5tYHmNqB5-2IAEJsWbU/view?usp=sharing"
+                        class="text-decoration-none d-block h-100">
+                        <div class="project-card rounded-4 overflow-hidden glass-card h-100 d-flex flex-column">
+                            <div class="project-img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                    alt="Video Editing" class="img-fluid project-img">
+                                <div class="project-overlay">
+                                    <div class="btn btn-primary rounded-circle"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                                </div>
+                            </div>
+                            <div class="p-4 flex-grow-1">
+                                <span class="badge bg-danger bg-opacity-25 text-danger mb-2">Video Production</span>
+                                <h4 class="text-white mb-2 fs-5">ตัดต่อคลิปวิดีโอ</h4>
+                                <p class="text-muted small mb-0">ผลงานการตัดต่อคลิปวิดีโอสั้นและยาวสำหรับแพลตฟอร์มต่างๆ
+                                    เน้นการเล่าเรื่องที่น่าสนใจและการใช้เอฟเฟกต์ภาพและเสียง</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <a href="https://drive.google.com/file/d/1SdWTR1s_7ecBxkB5AwySdJVfwR46yU0F/view?usp=sharing"
+                        class="text-decoration-none d-block h-100">
+                        <div class="project-card rounded-4 overflow-hidden glass-card h-100 d-flex flex-column">
+                            <div class="project-img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                    alt="Graphic Design" class="img-fluid project-img">
+                                <div class="project-overlay">
+                                    <div class="btn btn-primary rounded-circle"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                                </div>
+                            </div>
+                            <div class="p-4 flex-grow-1">
+                                <span class="badge bg-primary bg-opacity-25 text-primary mb-2">Graphic Design</span>
+                                <h4 class="text-white mb-2 fs-5">ออกแบบกราฟิก</h4>
+                                <p class="text-muted small mb-0">ผลงานการออกแบบโปสเตอร์ สื่อโฆษณา
+                                    และภาพประกอบคอนเทนต์ลงโซเชียลมีเดียต่างๆ</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Project 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <a href="https://www.tiktok.com/@_h.spxy" class="text-decoration-none d-block h-100">
+                        <div class="project-card rounded-4 overflow-hidden glass-card h-100 d-flex flex-column">
+                            <div class="project-img-wrapper">
+                                <img src="logo.jpg" alt="TikTok Channel" class="img-fluid project-img">
+                                <div class="project-overlay">
+                                    <div class="btn btn-primary rounded-circle"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                                </div>
+                            </div>
+                            <div class="p-4 flex-grow-1">
+                                <span class="badge bg-info bg-opacity-25 text-info mb-2">Content Creator</span>
+                                <h4 class="text-white mb-2 fs-5">ช่อง TikTok</h4>
+                                <p class="text-muted small mb-0">ช่อง TikTok
+                                    ส่วนตัวที่ผลิตคอนเทนต์ให้ความรู้และความบันเทิง
+                                    มีผู้ติดตามและยอดวิวเติบโตอย่างต่อเนื่อง</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 position-relative">
+        <div class="bg-shape bg-shape-2" style="bottom: -100px; right: 10%; top: auto;"></div>
+        <div class="container py-5 position-relative z-1">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center mb-5">
+                    <h2 class="fw-bold">ติด<span class="text-gradient">ต่อฉัน</span></h2>
+                    <p class="text-muted">สนใจร่วมงาน, ฝึกงาน, หรือมีโปรเจกต์ที่อยากให้ช่วย? ส่งข้อความมาหาผมได้เลย</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="glass-card p-4 p-md-5 rounded-4 shadow-lg">
+                        <form id="contactForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label text-light-gray small">ชื่อ-นามสกุล</label>
+                                    <input type="text" class="form-control bg-dark border-secondary text-white"
+                                        required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label text-light-gray small">อีเมล</label>
+                                    <input type="email" class="form-control bg-dark border-secondary text-white"
+                                        required>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label text-light-gray small">เรื่องที่ติดต่อ</label>
+                                    <input type="text" class="form-control bg-dark border-secondary text-white"
+                                        required>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label text-light-gray small">ข้อความ</label>
+                                    <textarea class="form-control bg-dark border-secondary text-white" rows="4"
+                                        required></textarea>
+                                </div>
+                                <div class="col-12 text-center mt-4">
+                                    <button type="submit"
+                                        class="btn btn-primary btn-glow px-5 py-2 rounded-pill w-100 w-md-auto">ส่งข้อความ</button>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="mt-5 text-center">
+                            <h5 class="text-white mb-3 fs-6 text-uppercase tracking-wider">ช่องทางอื่นๆ</h5>
+                            <div class="d-flex justify-content-center gap-3 social-links">
+                                <a href="#" class="social-icon" aria-label="LinkedIn"><i
+                                        class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#" class="social-icon" aria-label="GitHub"><i
+                                        class="fa-brands fa-github"></i></a>
+                                <a href="#" class="social-icon" aria-label="Facebook"><i
+                                        class="fa-brands fa-facebook-f"></i></a>
+                                <a href="mailto:example@gmail.com" class="social-icon" aria-label="Email"><i
+                                        class="fa-solid fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center border-top border-secondary bg-dark">
+        <div class="container">
+            <p class="text-muted mb-0 small">&copy; 2026 Portfolio. Designed by Digital Business Tech Student.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
